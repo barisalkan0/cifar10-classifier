@@ -1,5 +1,17 @@
+# local python environment
 venv/
+.venv/
+
+# downloaded dataset
 data/
+
+# python cache files
 __pycache__/
+*.py[cod]
+
+# trained model files
 *.pth
-*.pyc
+*.pt
+
+# editor settings
+.vscode/
