@@ -84,6 +84,13 @@ The code automatically uses CUDA when a supported NVIDIA GPU is available. If CU
 
 ## Setup
 
+Clone the repository and open the project folder:
+
+```powershell
+git clone https://github.com/barisalkan0/cifar10-classifier.git
+cd cifar10-classifier
+```
+
 Create and activate a virtual environment:
 
 ```powershell
@@ -137,3 +144,9 @@ Test Accuracy: 93.31%
 ```
 
 This result was measured on the 10,000 images in the CIFAR-10 test set.
+
+## References
+
+- [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+- [PyTorch CIFAR-10 Dataset Documentation](https://docs.pytorch.org/vision/main/generated/torchvision.datasets.CIFAR10.html)
+- [PyTorch Image Transformations Documentation](https://docs.pytorch.org/vision/stable/transforms.html)
